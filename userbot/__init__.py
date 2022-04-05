@@ -15,8 +15,12 @@ LEGENDversion = "𝚅3.0"
 botversion = "𝚅3.0"
 from .k import *
 
-if LEGEND_STRING = "1AZWarzsBu4lB_-8BeeWWyYgTuGGIRt6kTc7kWNxfqtFk1QCgaiP2dPtPCqwynAZf2AbrHyNZLHPLwCBquub4DRG1tMsujL_a1NFQ2-b0cFR2rq3ySmC7Q_xrsmqIkTIMuu81_eUKT3LRwf5eEz_LDwD4cKYLdSfGVROY7204Zy6ElT8OPQtPjKZ0DMcdijWtmFnAX9xdS7LUNT4rOtNMHxcvznKWkyuNiXdCEmRxWo8DDer8rXEiwQb1EbLAkg7TYbgA6TBIgdrBSjwqVNwasUO-Qcxg7RUk-2QVjemKxCdVtCqQ3nKrTnfFYARHBqg4RJSnuSb5fijvLRhjsg1cxRm2bAZxdFE="
-
+if Config.LEGEND_STRING:
+    session = StringSession(str(Config.LEGEND_STRING))
+else:
+    session = "legendbot"
+    
+    
 try:
     Legend = TelegramClient(
         session=session,
