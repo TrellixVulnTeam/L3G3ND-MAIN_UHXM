@@ -29,7 +29,7 @@ echo """
 ┃╰━╯┃╰━╯┃╱┃┃
 ╰━━━┻━━━╯╱╰╯
 """
-rm -rf LEGENDUSERBOT
+rm -rf L3G3ND-MAIN
 git clone https://github.com/The-LegendBot/LEGENDUSERBOT
 cd LEGENDUSERBOT
 python3 -m userbot
